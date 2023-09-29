@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+<title>Dashboard - FundQube</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+</head>
+<body class="dashboard-bg">
+
+  <a href="javascript:;" class="position-fixed bottom-0 end-0 me-3 mb-3 bot rounded-circle d-block text-center pt-4 z-1"><img src="images/bot.svg" alt="Bot" /></a>
+  
+<div class="d-lg-flex align-items-stretch">
+  <div class="sidebar h-100 position-relative">
+    <aside class="sidebar p-4 position-fixed top-0 left-0 h-100">
+      <a href="javascript:;"><img src="images/dashboard-logo.svg" alt="Logo" /></a>
+      <ul>
+        <li class="d-block my-4"><a href="javascript:;" class="fs-16 text-white text-decoration-none fw-700"><i class="fas fa-table-cells-large me-2"></i> Dashboard</a></li>
+        <li class="d-block my-4"><a href="javascript:;" class="fs-16 text-white text-decoration-none fw-700"><i class="fas fa-users me-1"></i> Clients</a></li>
+        <li class="d-block my-4"><a href="javascript:;" class="fs-16 text-white text-decoration-none fw-700"><i class="fas fa-upload me-2"></i> Upload History</a></li> 
+      </ul>
+      <ul class="position-absolute bottom-0">
+        <li class="d-block my-4"><a href="javascript:;" class="fs-16 text-white text-decoration-none fw-700"><i class="fas fa-arrow-right-to-bracket me-2"></i> Version 1.1</a></li>
+      </ul>
+    </aside>
+  <div class="main-content p-5">
+    <div class="d-lg-flex justify-content-between align-items-center w-100 position-relative">
+      <a href="javascrpt:;" class="hide-d p-2 rounded-2 bg-green menu-toggle text-white mb-4"><i class="fas fa-bars"></i></a>
+      <h1 class="text-green fw-700 fs-32 md-space">Client Business Name</h1>
+      <div class="right-side">
+        <div class="d-md-flex gap-4">
+          <div class="searc-bar position-relative">
+            <input type="text" class="form-control rounded-pill py-2 ps-4 bg-transparent fs-28" placeholder="Search" />
+            <button class="search-btn border-0 position-absolute top-50 end-0 translate-middle-y me-4 opacity-50"><i class="fa fa-search"></i></button>
+          </div>
+          <div class="dropdown notifications hide-m">
+            <button class="btn btn-outline-secondary p-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell fs-4"></i> <em class="position-absolute top-0 start-100 translate-middle me-4 d-block mt-2"></em></button>
+            <ul class="dropdown-menu p-0 overflow-hidden border-0 shadow">
+              <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Notification 1</a></li>
+              <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Notification 2</a></li>
+              <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Notification 3</a></li>
+            </ul>
+          </div>
+          <div class="d-flex align-items-center gap-3 hide-m">
+            <h2 class="fs-24 fw-700 text-end">Hello John!</h2>
+            <img src="images/user.png" alt="User" class="img-flui rounded-3" width="66" height="66" />
+          </div>
+          <div class="dropdown more mt-4 hide-m">
+            <button class="border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/arrow-header.svg" alt="Arrow" /></button>
+            <ul class="dropdown-menu p-0 overflow-hidden border-0 shadow">
+              <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> My Profile</a></li>
+              <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Settings</a></li>
+              <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Log Out</a></li>
+            </ul>
+          </div>
+          <div class="hide-d duplicate">
+            <div class="dropdown notifications">
+              <button class="btn btn-outline-secondary p-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell fs-4"></i> <em class="position-absolute top-0 start-100 translate-middle me-4 d-block mt-2"></em></button>
+              <ul class="dropdown-menu p-0 overflow-hidden border-0 shadow">
+                <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Notification 1</a></li>
+                <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Notification 2</a></li>
+                <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Notification 3</a></li>
+              </ul>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <h2 class="fs-24 fw-700 text-end">Hello John!</h2>
+              <img src="images/user.png" alt="User" class="img-flui rounded-3" width="66" height="66" />
+            </div>
+            <div class="dropdown more mt-4">
+              <button class="border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/arrow-header.svg" alt="Arrow" /></button>
+              <ul class="dropdown-menu p-0 overflow-hidden border-0 shadow">
+                <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> My Profile</a></li>
+                <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Settings</a></li>
+                <li><a class="dropdown-item p-3 fs-14" href="javascript:;"><i class="fa fa-angle-right me-2"></i> Log Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-lg-flex mt-4">
+      <div class="col-lg-5 ps-lg-0">
+
+        <div class="common-boxes shadow p-4 rounded-3 mt-4">
+          <h3 class="fs-22 fw-700">Client Information </h3>
+          <div class="client-box rounded-2 mt-4 py-4 px-3">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-6">
+                <label class="fw-500 fs-20">Business name:</label>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control w-100 rounded-0 border-0" />
+              </div>
+            </div>
+            <div class="row d-flex align-items-center mt-3">
+              <div class="col-md-6">
+                <label class="fw-500 fs-20">Business owner:</label>
+              </div>
+              <div class="col-md-6">
+                
+              </div>
+            </div>
+            <div class="row d-flex align-items-center mt-4">
+              <div class="col-md-6">
+                <label class="fw-500 fs-20">Seeking:</label>
+              </div>
+              <div class="col-md-6">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="common-boxes shadow p-4 rounded-3 mt-4">
+          <h3 class="fs-22 fw-700">Term Loan </h3>
+          <div class="terms px-md-4 text-center">
+            <a href="javascript:;" class="pills-btn fs-20 fw-500 text-decoration-none text-dashboard w-100 p-3 d-block rounded-2 text-center mt-3">SBA Boost Loan up to 500k</a>
+            <a href="javascript:;" class="pills-btn fs-20 fw-500 text-decoration-none text-dashboard w-100 p-3 d-block rounded-2 text-center mt-3">SBA 7(A) Loan over 500k</a>
+            <a href="javascript:;" class="pills-btn fs-20 fw-500 text-decoration-none text-dashboard w-100 p-3 d-block rounded-2 text-center mt-3">SBA FastTrack Loan</a>
+            <button class="btn bg-green py-3 px-5 fs-22 fw-600 text-white mt-4 mb-2">Apply Now</button>
+          </div>
+        </div>
+
+        <div class="common-boxes shadow px-4 py-2 rounded-3 mt-4">
+          <h3 class="fs-22 fw-700">Account Manager </h3>
+          <div class="d-flex justify-content-between my-4 align-items-center px-md-4">
+            <h3 class="fs-22 fw-700 text-dark">book an appointment with the manager </h3>
+            <img src="images/manager.png" alt="Manager" class="img-fluid rounded-circle" width="79" height="79" />
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-7 pe-lg-0">
+
+        <div class="common-boxes shadow py-4 px-5 rounded-3 mt-4 text-center">
+          <h3 class="fs-22 fw-700">Account Manager </h3>
+          <ul class="mt-4">
+            <li class="my-3 d-flex align-items-center justify-content-center"><span class="fs-1 text-light opacity-75 me-2 mt-n1">.</span> <p class="fs-22 fw-500 text-light opacity-75">6 months of PDF bank statements</p></li>
+            <li class="my-3 d-flex align-items-center justify-content-center"><span class="fs-1 text-light opacity-75 me-2 mt-n1">.</span> <p class="fs-22 fw-500 text-light opacity-75">Credit report</p></li>
+            <li class="my-3 d-flex align-items-center justify-content-center"><span class="fs-1 text-light opacity-75 me-2 mt-n1">.</span> <p class="fs-22 fw-500 text-light opacity-75">Application</p></li>
+          </ul>
+
+          <div class="dropzone rounded-3 p-5 mt-2">
+            <a href="javascript:;" class="text-green text-decoration-none display-4"><i class="fa fa-cloud-upload"></i></a>
+            <div class="clearfix"></div>
+            <strong class="fs-22 fw-600 text-light my-3 d-block">Drag & Drop your files here</strong>
+            <strong class="fs-22 fw-600 text-light my-4 d-block text-uppercase opacity-50">OR</strong>
+            <button class="btn bg-green py-3 px-5 fs-22 fw-600 text-white mt-2 mb-2">Browse Files</button>
+          </div>
+
+          <div class="text-start uploded">
+            <h3 class="fs-22 fw-700 mt-4">Upload Document Process</h3>
+            <div class="shadow rounded-3 p-4 mt-4">
+              <div class="d-flex align-items-center justify-content-between px-md-2">
+                <div class="d-flex gap-4">
+                  <i class="fas fa-file-alt fs-1"></i>
+                  <div class="file-text">
+                    <p class="fs-20">6 months of bank statement. pdf</p>
+                    <small class="fs-16 text-light mt-2 d-block">975 KB</small>
+                  </div>
+                </div>
+                <a href="javascript:;" class="text-decoration-none ms-md-4"><img src="images/yes.svg" alt="Icon" /></a>
+              </div>
+            </div>
+            <div class="shadow rounded-3 p-4 mt-4">
+              <div class="d-flex align-items-center justify-content-between px-md-2">
+                <div class="d-flex gap-4 w-100">
+                  <i class="fas fa-file-alt fs-1"></i>
+                  <div class="file-text w-100">
+                    <div class=" d-flex align-items-center justify-content-between w-100">
+                      <p class="fs-20">Credit report. pdf</p>
+                      <small class="fs-16 text-light me-2 d-block">72%</small>
+                    </div>
+                    <div class="mt-3">
+                      <div class="progress w-100" role="progressbar" aria-label="Success example" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-success" style="width: 72%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="javascript:;" class="text-decoration-none ms-md-4"><img src="images/no.svg" alt="Icon" /></a>
+              </div>
+            </div>
+            <div class="shadow rounded-3 p-4 mt-4 mb-4">
+              <div class="d-flex align-items-center justify-content-between px-md-2">
+                <div class="d-flex gap-4 w-100">
+                  <i class="fas fa-file-alt fs-1"></i>
+                  <div class="file-text w-100">
+                    <div class=" d-flex align-items-center justify-content-between w-100">
+                      <p class="fs-20">Application. pdf</p>
+                      <small class="fs-16 text-light me-2 d-block">42%</small>
+                    </div>
+                    <div class="mt-3">
+                      <div class="progress w-100" role="progressbar" aria-label="Success example" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-success" style="width: 42%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="javascript:;" class="text-decoration-none ms-md-4"><img src="images/no.svg" alt="Icon" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+<script>
+  $('.menu-toggle').click(function(){
+    $('aside.sidebar').toggleClass("show");
+    $('.main-content').toggleClass("show");
+  });
+</script>
+</body>
+</html>
